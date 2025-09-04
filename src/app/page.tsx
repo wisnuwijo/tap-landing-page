@@ -1,8 +1,7 @@
 import FeatureHeroSections from "./components/FeatureHeroSections";
 import Footer from "./components/Footer";
 import FooterBottom from "./components/FooterBottom";
-import HeroSection from "./components/HeroSection";
-import Navbar from "./components/Navbar";
+import HeroSectionNew from "./components/HeroSectionNew";
 
 // app/page.js
 export const metadata = {
@@ -14,8 +13,7 @@ export default function Home() {
 
   return (
     <div>
-      <Navbar />
-      <HeroSection />
+      <HeroSectionNew />
       <FeatureHeroSections />
       <Footer />
       <FooterBottom />

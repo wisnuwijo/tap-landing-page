@@ -2,7 +2,7 @@ import React from "react";
 
 export default function FooterBottom() {
     return (
-        <div className="w-full bg-[#181922] border-t border-[#23243a] py-8">
+        <div className="w-full border-t border-[#23243a] py-8">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between">
                 {/* Left: Logo and description */}
                 <div className="flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-8 flex-1">

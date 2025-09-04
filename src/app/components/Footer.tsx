@@ -54,7 +54,7 @@ const footerLinks = [
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#181922] border-t border-[#23243a] py-16">
+    <footer className="w-full border-t border-[#23243a] py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-7 gap-8 text-left">
           {footerLinks.map((section, idx) => (

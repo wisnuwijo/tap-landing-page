@@ -36,54 +36,82 @@ const features = [
 export default function FeatureHeroSections() {
     return (
         <>
-            <section className="w-full px-0 py-0 bg-[#181922]">
+            <section className="w-full px-0 py-0">
                 <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-stretch min-h-[600px]">
                     {/* Left Side: Headline, Subheadline, CTA, Stats */}
                     <div className="flex-1 flex flex-col justify-center px-8 py-20">
-                        <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-6 leading-tight">At a fraction of<br />your current costs</h2>
-                        <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-lg">Get an unrivaled price-to-performance ratio. Decrease your budget by 30x or keep your current budget but actually instrument all of your services, without sampling.</p>
-                        <button className="bg-[#23243a] text-white font-semibold px-6 py-3 rounded-xl mb-12 w-fit flex items-center gap-2 hover:bg-[#23243a]/80 transition">Explore pricing <span className="text-xl">→</span></button>
+                        <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-6 leading-tight">Transform your HR <br/> with AI intelligence</h2>
+                        <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-lg">Streamline recruitment, boost employee satisfaction, and automate routine HR tasks. Our AI-powered platform reduces administrative overhead by 80% while improving decision-making.</p>
+                        <button className="bg-[#23243a] text-white font-semibold px-6 py-3 rounded-xl mb-12 w-fit flex items-center gap-2 hover:bg-[#23243a]/80 transition">Start free trial <span className="text-xl">→</span></button>
                         <div className="flex flex-col md:flex-row gap-8 mt-8">
                             <div>
-                                <span className="text-xs text-gray-400">Ingest up to</span>
-                                <div className="text-3xl font-bold text-white">33x more data</div>
-                                <span className="text-xs text-gray-400">with the same budget</span>
+                                <span className="text-xs text-gray-400">Reduce time-to-hire by</span>
+                                <div className="text-3xl font-bold text-white">65%</div>
+                                <span className="text-xs text-gray-400">with smart matching</span>
                             </div>
                             <div>
-                                <span className="text-xs text-gray-400">or save up to</span>
-                                <div className="text-3xl font-bold text-white">97%</div>
-                                <span className="text-xs text-gray-400">of your costs</span>
+                                <span className="text-xs text-gray-400">Increase productivity by</span>
+                                <div className="text-3xl font-bold text-white">40%</div>
+                                <span className="text-xs text-gray-400">through automation</span>
                             </div>
                         </div>
                     </div>
+                    
                     {/* Right Side: Feature Comparison Card */}
                     <div className="flex-1 flex items-center justify-center px-8 py-20">
-                        <div className="bg-[#1d1e2b] rounded-2xl shadow-lg w-full max-w-xl p-8">
-                            <div className="flex flex-row justify-between items-center border-b border-[#23243a] pb-6 mb-6">
-                                <div className="text-2xl font-bold text-white">1 TB</div>
-                                <div className="text-2xl font-bold text-white">1 TB</div>
-                                <div className="text-2xl font-bold text-white">150B</div>
+                        <div className="bg-[#1d1e2b] rounded-2xl shadow-lg w-full max-w-xl p-8 border border-slate-700">
+                            <div className="flex flex-row justify-between items-center border-b border-slate-600 pb-6 mb-6">
+                                <div className="text-center">
+                                    <div className="text-2xl font-bold text-white">5,000</div>
+                                    <div className="text-xs text-gray-400 mt-1">employees</div>
+                                </div>
+                                <div className="text-center">
+                                    <div className="text-2xl font-bold text-white">50+</div>
+                                    <div className="text-xs text-gray-400 mt-1">workflows</div>
+                                </div>
+                                <div className="text-center">
+                                    <div className="text-2xl font-bold text-white">24/7</div>
+                                    <div className="text-xs text-gray-400 mt-1">AI support</div>
+                                </div>
                             </div>
+
                             <div className="flex flex-row justify-between items-center text-xs text-gray-400 mb-8">
-                                <div>traces per month<br />30-day retention</div>
-                                <div>logs per month<br />30-day retention</div>
-                                <div>metrics data points<br />13-month retention</div>
+                                <div>managed seamlessly<br />with full analytics</div>
+                                <div>automated processes<br />smart recommendations</div>
+                                <div>intelligent assistance<br />instant insights</div>
                             </div>
+
                             <div className="mb-6">
-                                <div className="flex items-center gap-2 mb-2">
-                                    <span className="bg-gray-700 rounded-full w-6 h-6 flex items-center justify-center"><span className="text-white text-xs">DD</span></span>
-                                    <span className="text-white font-semibold">Datadog</span>
-                                    <div className="flex-1 mx-4 h-2 bg-[#23243a] rounded-full" />
-                                    <span className="text-gray-400">approx. $28,000 per month</span>
+                                <div className="flex items-center gap-2 mb-4">
+                                    <span className="bg-orange-600 rounded-full w-6 h-6 flex items-center justify-center">
+                                        <span className="text-white text-xs font-bold">W</span>
+                                    </span>
+                                    <span className="text-white font-semibold">Workday</span>
+                                    <div className="flex-1 mx-4 h-2 bg-slate-600 rounded-full" />
+                                    <span className="text-gray-400">$18,500 per month</span>
                                 </div>
-                                <div className="flex items-center gap-2 mb-2">
-                                    <span className="bg-blue-600 rounded-full w-6 h-6 flex items-center justify-center"><span className="text-white text-xs">BS</span></span>
-                                    <span className="text-white font-semibold">Better Stack</span>
-                                    <span className="ml-4 text-blue-400 font-semibold">$879 per month</span>
+
+                                <div className="flex items-center gap-2 mb-4">
+                                    <span className="bg-blue-600 rounded-full w-6 h-6 flex items-center justify-center">
+                                        <span className="text-white text-xs font-bold">S</span>
+                                    </span>
+                                    <span className="text-white font-semibold">SAP SuccessFactors</span>
+                                    <div className="flex-1 mx-4 h-2 bg-slate-600 rounded-full" />
+                                    <span className="text-gray-400">$22,000 per month</span>
+                                </div>
+
+                                <div className="flex items-center gap-2 mb-2 bg-slate-800 rounded-lg p-3 border border-blue-500/30">
+                                    <span className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-full w-6 h-6 flex items-center justify-center">
+                                        <span className="text-white text-xs font-bold">AI</span>
+                                    </span>
+                                    <span className="text-white font-semibold">AI HRM Pro</span>
+                                    <span className="ml-4 text-blue-400 font-semibold text-lg">$3,200 per month</span>
                                 </div>
                             </div>
+
                             <div className="text-[10px] text-gray-500 mt-4">
-                                Placeholder for estimate details. Assumes annual payments, European data location, etc.
+                                Enterprise pricing for 5,000+ employees. Includes AI analytics, automated workflows,
+                                predictive insights, and dedicated support.
                             </div>
                         </div>
                     </div>
@@ -91,9 +119,9 @@ export default function FeatureHeroSections() {
             </section>
 
             {/* New Feature Hero Section: Log Management Style */}
-            <section className="w-full px-0 py-0 bg-[#181922]">
+            <section className="w-full px-0 py-0">
                 <div className="max-w-7xl mx-auto flex flex-col gap-8 py-24">
-                    <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-10 px-8">Log management</h2>
+                    <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-10 px-8">AI-powered talent management</h2>
                     <div className="flex flex-col md:flex-row gap-8 px-8">
                         {/* Left Card */}
                         <div className="flex-1 bg-[#1d1e2b] rounded-2xl shadow-lg p-8 flex flex-col justify-between min-h-[340px]">
@@ -140,7 +168,7 @@ export default function FeatureHeroSections() {
             </section>
 
             {/* New Section: Market Presence Style */}
-            <section className="w-full px-0 py-0 bg-[#181922]">
+            <section className="w-full px-0 py-0">
                 <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center min-h-[600px] py-24">
                     {/* Left Side: Headline, Subheadline, Email, CTA, Link */}
                     <div className="flex-1 flex flex-col justify-center px-8">
